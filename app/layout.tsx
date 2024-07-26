@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <GA GA_MEASUREMENT_ID="G-52GQ441X7H" />
-            <meta name="google-site-verification" content="V8lmEvFOdYBlChgR6pYABBZBhI1EFnPb1YuxTTdHXMU" />
+            
+            <meta name="google-site-verification" content="LFaTfHdlyo1iJHkJaM5FMK6Zv8SGUOVXQqsPvzkOPsQ" />
             <body className={inter.className}>
                 <ThemeProvider attribute="class" defaultTheme="system" enableSystem themes={["light", "dark"]}>
                     <Navbar />
